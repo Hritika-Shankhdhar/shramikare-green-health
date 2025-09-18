@@ -70,7 +70,7 @@ const DoctorDetails = () => {
 
         <div className="grid gap-8 lg:grid-cols-2">
           {/* Form */}
-          <Card className="shadow-card bg-gradient-card animate-slide-up">
+          <Card className="shadow-card bg-gradient-card animate-slide-up border-l-4 border-blue">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-primary">
                 <Stethoscope className="h-5 w-5" />
@@ -170,17 +170,17 @@ const DoctorDetails = () => {
             ) : (
               <div className="space-y-4">
                 {doctors.map((doctor, index) => (
-                  <Card key={doctor.id} className="shadow-card animate-slide-up" style={{ animationDelay: `${index * 100}ms` }}>
+                  <Card key={doctor.id} className="shadow-card animate-slide-up border-l-2 border-blue" style={{ animationDelay: `${index * 100}ms` }}>
                     <CardContent className="pt-4">
                       <div className="flex justify-between items-start">
                         <div className="space-y-2 flex-1">
                           <h3 className="font-semibold text-primary">{doctor.doctorName}</h3>
                           <p className="text-sm text-muted-foreground flex items-center gap-1">
-                            <Stethoscope className="h-3 w-3" />
+                            <Stethoscope className="h-3 w-3 text-blue" />
                             {doctor.specialization}
                           </p>
                           <p className="text-sm text-muted-foreground flex items-center gap-1">
-                            <Building className="h-3 w-3" />
+                            <Building className="h-3 w-3 text-blue" />
                             {doctor.facilityName}
                           </p>
                           <p className="text-sm text-muted-foreground flex items-center gap-1">

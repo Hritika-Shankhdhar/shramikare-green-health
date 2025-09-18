@@ -45,7 +45,7 @@ const DigitalId = () => {
                   <p className="text-sm opacity-90">Digital Health Record System</p>
                 </div>
                 <div className="text-right">
-                  <p className="text-sm opacity-90">State of Kerala</p>
+                  <p className="text-sm opacity-90 text-blue-foreground">State of Kerala</p>
                   <p className="text-xs opacity-75">Govt. of India</p>
                 </div>
               </div>

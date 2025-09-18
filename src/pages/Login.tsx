@@ -33,7 +33,7 @@ const Login = () => {
             </div>
           </div>
           <h1 className="text-3xl font-bold text-primary mb-2">Shramikare</h1>
-          <p className="text-lg text-muted-foreground">Caring for Workers' Health</p>
+          <p className="text-lg text-muted-foreground border-l-4 border-blue pl-3">Caring for Workers' Health</p>
         </div>
 
         {/* Login Form */}
@@ -93,7 +93,7 @@ const Login = () => {
             <div className="mt-6 text-center">
               <p className="text-sm text-muted-foreground">
                 Don't have an account?{" "}
-                <button className="text-primary hover:text-primary-hover font-medium transition-colors">
+                <button className="text-blue hover:text-blue-foreground font-medium transition-colors">
                   Register
                 </button>
               </p>
